@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+ }
+
+h3 {
+    padding: 40px 50px;
+    background-color: #ffff00;
+}
+
+nav li {
+    display: inline;
+    font-family: 'Zilla Slab', serif;
+    justify-content: center;
+   
+}
+
+nav li {
+    width: 20%;
+    
+}
+
+nav ul {
+    font-size: 2rem;
+    text-align: center;
+} 
+
+nav a {
+    text-decoration: none;
+    color:#4256f4;
+    /*padding: 90px 70px;*/
+    padding: 10px 70px;
+
+    display: center;
+    transition:  x25s;
+}
+
+.about-page {
+    background-color: #D3D3D3;
+}
+    
+.ziggy-quotes{
+    padding: 20px 20px;
+    font-size: large;
+    font-style: oblique;
+    background-color: #64b4e5;
+    background-size: cover;
+}
+
+.tour-page {
+    background-color: #D3D3D3;
+}
+
+.tour {
+    padding: 20px 20px;
+    font-size: 1rem;
+    font-style: oblique;
+    background-color: #64b4e5;
+    background-size: top;
+}
+
+/*This is the background image of the music page*/
+
+.plain-bkg {
+    background-image: url(../images/blank-background.jpg);  
+    background-size: cover;
+    background-position: center;
+}
+    
+.gtr-bg {
+    background-image: url(../images/splash-guitar.png); 
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 280px;
+    padding-left: 100px;
+    font-size: 2rem;
+    color: #ffff00;
+    font-weight: bold;
+}
+
+/*These are videos in the music page*/
+
+.video {
+   width: 1200px;
+   margin: auto;
+   text-align: center
+    
+}
+
+/*This div is the background image of the home page (index.html)*/
+
+.guy-gtr-bg {
+    background-image: url(../images/guy-with-guitar.jpeg);  
+    background-size: cover;
+    background-position: center;
+}
+
+/*This is an image within the background image on the store page (div).*/
+
+.price {
+    padding-top: 30px;
+}
+.shirts {
+    padding: 60px;
+    width: 100%;
+    background:rgba(255,255,255,0.5);
+    padding-left: 30px;
+    background-image: url(../images/shirts.jpeg);
+    background-position: cover;
+    
+}
+.store-page {
+    background-image: url("../images/guy-with-guitar2.jpeg");
+    background-size: cover;
+    font-size: 2rem;
+}
+
